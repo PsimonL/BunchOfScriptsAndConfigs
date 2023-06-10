@@ -1,10 +1,10 @@
 import re
 
+
 # https://www.ibm.com/docs/en/networkmanager/4.2.0?topic=translation-private-address-ranges
 # Class A: 10.0. 0.0 to 10.255. 255.255.
 # Class B: 172.16. 0.0 to 172.31. 255.255.
 # Class C: 192.168. 0.0 to 192.168. 255.255.
-
 
 
 def get_valid_ips(file_path):
@@ -33,7 +33,7 @@ def get_valid_ips(file_path):
                 elif 192 <= first_octet <= 192 and int(octets[1]) == 168:  # Class C range internal
                     internal_counter += 1
                     internal_ips.append(ip)
-                else:
+                else:  # external range
                     external_counter += 1
                     external_ips.append(ip)
 
