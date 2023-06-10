@@ -43,7 +43,9 @@ def get_valid_ips(file_path):
 file_path = './file.txt'
 internal_ips, external_ips, internal_counter, external_counter = get_valid_ips(file_path)
 
+print("Before execution")
 print(f"Number of INTERNAL IPs = {internal_counter} and list:")
 print(internal_ips)
 print(f"Number of EXTERNAL IPs = {external_counter} and list:")
 print(external_ips)
+print("Listing done")
