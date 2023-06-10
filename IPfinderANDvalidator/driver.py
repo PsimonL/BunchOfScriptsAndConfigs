@@ -15,7 +15,7 @@ def get_valid_ips(file_path):
     with open(file_path, 'r') as file:
         data = file.read()
 
-        ip_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
+        ip_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b' # check if matches pattern IP: a.b.c.d
         ip_matches = re.findall(ip_pattern, data)
 
         for ip in ip_matches:
