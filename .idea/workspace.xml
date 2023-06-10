@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3d7b22c-857d-4f1f-ac6f-94efd802e934" name="Changes" comment="Internal and external files examples">
-      <change afterPath="$PROJECT_DIR$/IPfinderANDvalidator/file.txt" afterDir="false" />
+    <list default="true" id="e3d7b22c-857d-4f1f-ac6f-94efd802e934" name="Changes" comment="implement driver.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPfinderANDvalidator/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPfinderANDvalidator/driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/szymo/PycharmProjects/Scripts/IPfinderANDvalidator&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/szymo/PycharmProjects/Scripts"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\szymo\PycharmProjects\Scripts\IPfinderANDvalidator" />
@@ -234,6 +234,7 @@
       <workItem from="1662759051231" duration="171000" />
       <workItem from="1662760732987" duration="12000" />
       <workItem from="1686399093117" duration="338000" />
+      <workItem from="1686412114859" duration="881000" />
     </task>
     <task id="LOCAL-00001" summary="IP address finder and validator">
       <created>1686399422513</created>
@@ -242,7 +243,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686399422513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Internal and external files examples">
+      <created>1686412123357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686412123357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Internal and external files examples">
+      <created>1686412140016</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686412140016</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Internal and external files examples">
+      <created>1686412185571</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686412185571</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implement driver.py">
+      <created>1686412318768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686412318768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +290,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IP address finder and validator" />
-    <option name="LAST_COMMIT_MESSAGE" value="IP address finder and validator" />
+    <MESSAGE value="Internal and external files examples" />
+    <MESSAGE value="implement driver.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement driver.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PDFmerger$main.coverage" NAME="main Coverage Results" MODIFIED="1662758410448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
