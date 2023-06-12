@@ -1,7 +1,7 @@
 import java.time.Duration
 
 static void main(String[] args) {
-    println "Hello world!"
+    println "Measurement only in seconds, total time in {second, minute, hour, day} format."
     def startTime = System.currentTimeMillis()
 
     def timer = new Timer()
@@ -11,7 +11,7 @@ static void main(String[] args) {
         @Override
         void run() {
             count++
-            println "Time: ${count} s"
+            println "Current Time: ${count} s"
         }
     }, 1000, 1000)
 
