@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3d7b22c-857d-4f1f-ac6f-94efd802e934" name="Changes" comment="password-generator.py finished">
-      <change beforePath="$PROJECT_DIR$/PasswordGenerator/password-generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordGenerator/password-generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,8 @@
       <workItem from="1686412114859" duration="1198000" />
       <workItem from="1686426781215" duration="501000" />
       <workItem from="1686427691137" duration="666000" />
-      <workItem from="1686433488341" duration="2458000" />
+      <workItem from="1686433488341" duration="2739000" />
+      <workItem from="1686440006596" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="IP address finder and validator">
       <created>1686399422513</created>
@@ -322,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686438677799</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="password-generator.py finished">
+      <created>1686439291970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686439291970</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +362,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PDFmerger$main.coverage" NAME="main Coverage Results" MODIFIED="1662758410448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Scripts$FRmain.coverage" NAME="FRmain Coverage Results" MODIFIED="1686437849148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FaceRecognition" />
-    <SUITE FILE_PATH="coverage/Scripts$password_generator.coverage" NAME="password-generator Coverage Results" MODIFIED="1686438962064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PasswordGenerator" />
+    <SUITE FILE_PATH="coverage/Scripts$password_generator.coverage" NAME="password-generator Coverage Results" MODIFIED="1686439231418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PasswordGenerator" />
   </component>
 </project>
