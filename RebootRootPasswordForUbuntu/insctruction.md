@@ -15,3 +15,8 @@ encryption, disabled GRUB, or external server authentication, the following inst
 - In terminal type: **mount -rw -o remount /**
 - **passwd root** (change password for root)
 - **reboot**
+
+
+Useful documenatation:
+- https://www.gnu.org/software/grub/manual/grub/grub.html
+- https://en.wikibooks.org/wiki/Linux_Guide/Reset_a_forgotten_root_password
