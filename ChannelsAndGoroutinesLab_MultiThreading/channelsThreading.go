@@ -13,7 +13,7 @@ func multipleThreadsChannels(arr []int, wg *sync.WaitGroup, results chan int) {
 		arr[i]++
 	}
 
-	// Ex. length
+	// For example take length, any value just to push through the channel
 	results <- len(arr)
 }
 
