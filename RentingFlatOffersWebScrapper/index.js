@@ -12,7 +12,7 @@ async function fetchPage(url) {
     const response = await axios.get(url);
     return response.data;
   } catch (error) {
-    console.error('Błąd podczas pobierania strony:', error);
+    console.error('Error during downloading page', error);
     throw error;
   }
 }
@@ -20,10 +20,10 @@ async function fetchPage(url) {
 async function main() {
   try {
     const html = await fetchPage(url);
-    console.log('Zawartość strony:');
+    console.log('Page content:');
     console.log(html);
   } catch (error) {
-    console.error('Błąd głównej funkcji:', error);
+    console.error('Main func error:', error);
   }
 }
 
