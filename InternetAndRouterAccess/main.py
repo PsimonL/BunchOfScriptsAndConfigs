@@ -15,6 +15,10 @@ def ping(host):
 
 
 def dns_resolver(domain):
+    """
+    Resolve a domain name to an IP address.
+    Returns a tuple containing a boolean and the resolved IP address or an error message.
+    """
     try:
         ip_address = socket.gethostbyname(domain)
         print("DNS resolution working.")
@@ -47,26 +51,36 @@ def check_internet_connectivity(ip, domain):
         print("ERROR: ", dns_ip)
 
 
-def check_wifi_connections():
+def check_wifi_connections(os_flag):
     """
-    Check available Wi-Fi networks and current connection status.
+    Check available Wi-Fi networks and current connection status on Windows.
     """
     try:
         print("Available Wi-Fi networks:")
-        available_networks = subprocess.check_output(['nmcli', 'dev', 'wifi', 'list'])
+        if os_flag == os_w:
+            available_networks = subprocess.check_output(['netsh', 'wlan', 'show', 'networks'])
+        else:
+            available_networks = subprocess.check_output(['nmcli', 'dev', 'wifi', 'list'])
         print(available_networks.decode())
 
         print("Current Wi-Fi connection status:")
-        connection_status = subprocess.check_output(['nmcli', 'con', 'show', '--active'])
+        if os_flag == os_w:
+            connection_status = subprocess.check_output(['netsh', 'wlan', 'show', 'interfaces'])
+        else:
+            connection_status = subprocess.check_output(['nmcli', 'con', 'show', '--active'])
         print(connection_status.decode())
     except subprocess.CalledProcessError as e:
-        print(f"Failed to execute nmcli command: {e}")
+        print(f"Failed to execute netsh command: {e}")
 
 
 if __name__ == "__main__":
+    """
+    Driver
+    """
     print("Checking internet connectivity...")
     google_dns = "8.8.8.8"
     google_domain = "www.google.com"
     check_internet_connectivity(ip=google_dns, domain=google_domain)
-    # print("\nChecking Wi-Fi connections...")
-    # check_wifi_connections()
+    os_w, os_l = "windows", "linux"
+    os_flag = os_w
+    check_wifi_connections(os_flag=os_w)

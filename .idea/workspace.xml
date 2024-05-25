@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3d7b22c-857d-4f1f-ac6f-94efd802e934" name="Changes" comment="Server Usage Controller" />
+    <list default="true" id="e3d7b22c-857d-4f1f-ac6f-94efd802e934" name="Changes" comment="Internet and Wi-Fi router access">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternetAndRouterAccess/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternetAndRouterAccess/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +37,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/szymo/PycharmProjects/Scripts&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/szymo/PycharmProjects/scratchpad&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -43,7 +54,7 @@
       <recent name="C:\Users\szymo\PycharmProjects\Scripts\PDFmerger" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="PythonScripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +124,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InternetAndRouterAccess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InternetAndRouterAccess/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,6 +249,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.FRmain" />
       </list>
     </recent_temporary>
@@ -240,6 +274,9 @@
       <workItem from="1686594811549" duration="707000" />
       <workItem from="1686596087812" duration="25000" />
       <workItem from="1686828314617" duration="73000" />
+      <workItem from="1716497528014" duration="142000" />
+      <workItem from="1716648552132" duration="1075000" />
+      <workItem from="1716654803981" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="IP address finder and validator">
       <created>1686399422513</created>
@@ -381,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1686828376545</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Internet and Wi-Fi router access">
+      <option name="closed" value="true" />
+      <created>1716497631182</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716497631182</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,11 +459,14 @@
     <MESSAGE value="Timer done" />
     <MESSAGE value="Timer info" />
     <MESSAGE value="Server Usage Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server Usage Controller" />
+    <MESSAGE value="Internet and Wi-Fi router access" />
+    <option name="LAST_COMMIT_MESSAGE" value="Internet and Wi-Fi router access" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Scripts_Configs_and_more$FRmain.coverage" NAME="FRmain Coverage Results" MODIFIED="1716650860314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FaceRecognition" />
     <SUITE FILE_PATH="coverage/PDFmerger$main.coverage" NAME="main Coverage Results" MODIFIED="1662758410448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Scripts$FRmain.coverage" NAME="FRmain Coverage Results" MODIFIED="1686437849148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FaceRecognition" />
+    <SUITE FILE_PATH="coverage/Scripts_Configs_and_more$main.coverage" NAME="main Coverage Results" MODIFIED="1716661213404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InternetAndRouterAccess" />
     <SUITE FILE_PATH="coverage/Scripts$password_generator.coverage" NAME="password-generator Coverage Results" MODIFIED="1686439231418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PasswordGenerator" />
   </component>
 </project>
