@@ -6,9 +6,3 @@ hydra -l R1ckRul3s -P /usr/share/wordlists/rockyou.txt <target_ip_address> http-
 
 gobuster dir -u http://<target_ip_address>:80/ -x php,html,css,js,txt,pdf -w /usr/share/wordlists/dirb/common.txt 
 
-Wubbalubbadubdub
-R1ckRul3s
-
-# r. meeseek hair
-# 1 jerry tear
-# fleeb juice
